@@ -1,39 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import './index.css'
+import React from 'react';
+import './index.css';
+import Header from './Composant/Header/Header';
+import Bloc2 from './Composant/Bloc-2/Bloc-2';
+import Bloc1 from './Composant/Bloc-1/Bloc-1';
+import Bloc3 from './Composant/Bloc-3/Bloc-3';
+import Bloc4 from './Composant/Bloc-4/Bloc-4';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <>
-      <div className='flex flex-row justify-center items-center mb-10'>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-        <p className='text-red-300 text-2xl mt-7'>
-          This is the template created by MaxDev
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="w-full h-full bg-color overflow-x-hidden">
+      <Header />
+      <Bloc1 />
+      <Bloc2 />
+      <Bloc3 />
+      <Bloc4 />
+    </div>
+  );
+};
 
-export default App
+
+export default App;
