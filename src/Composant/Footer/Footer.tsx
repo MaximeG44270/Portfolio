@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             <MeSuivre />
         </div>
         <img
-            src="/public/Image-portfolio/Footer/mg-digital.png"
+            src="/Image-portfolio/Footer/mg-digital.png"
             alt="Image en haut à gauche"
             className="w-full mt-4"
         />
