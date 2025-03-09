@@ -5,6 +5,7 @@ import Bloc2 from './Composant/Bloc-2/Bloc-2';
 import Bloc1 from './Composant/Bloc-1/Bloc-1';
 import Bloc3 from './Composant/Bloc-3/Bloc-3';
 import Bloc4 from './Composant/Bloc-4/Bloc-4';
+import Footer from './Composant/Footer/Footer';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Bloc2 />
       <Bloc3 />
       <Bloc4 />
+      <Footer />
     </div>
   );
 };
