@@ -6,14 +6,14 @@ const Bloc1: React.FC = () => {
         <div className="relative w-full bg-color flex items-center justify-center">
             {/* ------------------------------------------- Image principale en arrière-plan ------------------------------------------- */}
             <img
-                src="/public/Image-portfolio/bloc-1/grille.png"
+                src="/Image-portfolio/bloc-1/grille.png"
                 alt="Image de fond"
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
             />
 
             {/* ------------------------------------------- Seconde image en haut à gauche ------------------------------------------- */}
             <img
-                src="/public/Image-portfolio/bloc-1/lumiere-en-haut-gauche.png"
+                src="/Image-portfolio/bloc-1/lumiere-en-haut-gauche.png"
                 alt="Image en haut à gauche"
                 className="absolute top-[-30px] left-0 w-40"
             />
@@ -33,13 +33,13 @@ const Bloc1: React.FC = () => {
                         animate={{ x: ["0%", "-100%"] }}
                         transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                     >
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
                         {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                        <img src="/public/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
+                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
                     </motion.div>
                 </div>
             </div>

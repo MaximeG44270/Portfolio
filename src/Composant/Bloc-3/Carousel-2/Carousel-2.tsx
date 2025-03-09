@@ -6,14 +6,14 @@ interface CarouselProps {
 
 const Carousel2: React.FC<CarouselProps> = ({ speed = 30 }) => {
   const [items, setItems] = useState<string[]>([
-    "/public/Image-portfolio/bloc-3/Figma.png",
-    "/public/Image-portfolio/bloc-3/Illustrator.png",
-    "/public/Image-portfolio/bloc-3/Photoshop.png",
-    "/public/Image-portfolio/bloc-3/Angular.png",
-    "/public/Image-portfolio/bloc-3/React.png",
-    "/public/Image-portfolio/bloc-3/TypeScript.png",
-    "/public/Image-portfolio/bloc-3/Html.png",
-    "/public/Image-portfolio/bloc-3/Css.png"
+    "/Image-portfolio/bloc-3/Figma.png",
+    "/Image-portfolio/bloc-3/Illustrator.png",
+    "/Image-portfolio/bloc-3/Photoshop.png",
+    "/Image-portfolio/bloc-3/Angular.png",
+    "/Image-portfolio/bloc-3/React.png",
+    "/Image-portfolio/bloc-3/TypeScript.png",
+    "/Image-portfolio/bloc-3/Html.png",
+    "/Image-portfolio/bloc-3/Css.png"
   ]);
   
   const containerRef = useRef<HTMLDivElement>(null);

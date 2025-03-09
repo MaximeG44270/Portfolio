@@ -9,7 +9,7 @@ const Bloc2: React.FC = () => {
         <div className="relative w-full bg-color flex items-center justify-center">
             {/* ------------------------------------------- Seconde image en haut à gauche ------------------------------------------- */}
             <img
-                src="/public/Image-portfolio/bloc-2/lumiere.png"
+                src="/Image-portfolio/bloc-2/lumiere.png"
                 alt="Image en haut à gauche"
                 className="absolute top-[-30px] right-0 w-40"
             />
