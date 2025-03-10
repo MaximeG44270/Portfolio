@@ -6,7 +6,7 @@ import Card4 from "./Cards/Card-4";
 
 const Bloc2: React.FC = () => {
     return (
-        <div className="relative w-full bg-color flex items-center justify-center">
+        <div id="services" className="relative w-full bg-color flex items-center justify-center">
             {/* ------------------------------------------- Seconde image en haut à gauche ------------------------------------------- */}
             <img
                 src="/Image-portfolio/bloc-2/lumiere.png"

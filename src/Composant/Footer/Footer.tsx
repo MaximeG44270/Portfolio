@@ -5,7 +5,7 @@ import MeSuivre from "./Suivre/MeSuivre";
 
 const Footer: React.FC = () => {
   return (
-    <div className="relative w-full bg-[#0d0a1c] flex flex-col items-center justify-center">
+    <div id="contact" className="relative w-full bg-[#0d0a1c] flex flex-col items-center justify-center">
         <img
             src="/Image-portfolio/Footer/lumiere-droite.png"
             alt="Image en haut à gauche"
