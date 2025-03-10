@@ -86,7 +86,7 @@ const Carousel2: React.FC<CarouselProps> = ({ speed = 30 }) => {
             <img
               src={src}
               alt={`Tech logo ${index % (items.length / 3) + 1}`}
-              className="w-52 h-16 md:w-64 md:h-20 lg:w-96 lg:h-40 lg:mx-6 mx-2 object-contain"
+              className="w-52 h-16 md:w-64 md:h-20 lg:w-80 lg:h-40 lg:mx-6 mx-2 object-contain"
             />
           </div>
         ))}

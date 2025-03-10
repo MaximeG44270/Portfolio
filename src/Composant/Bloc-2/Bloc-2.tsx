@@ -23,10 +23,16 @@ const Bloc2: React.FC = () => {
                 </div>
 
                 {/* ------------------------------------------- Cards ------------------------------------------- */}
-                <Card1 />
-                <Card2 />
-                <Card3 />
-                <Card4 />
+                <div className="lg:flex lg:flex-col">
+                    <div className="lg:flex lg:flex-row">
+                        <Card1 />
+                        <Card2 />
+                    </div>
+                    <div className="lg:flex lg:flex-row">
+                        <Card3 />
+                        <Card4 />
+                    </div>
+                </div>
             </div>
         </div>
     );
