@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Bloc1: React.FC = () => {
     return (
-        <div className="relative w-full bg-color flex items-center justify-center">
+        <div className="relative w-full bg-color flex flex-col items-center justify-center">
             {/* ------------------------------------------- Image principale en arrière-plan ------------------------------------------- */}
             <img
                 src="/Image-portfolio/bloc-1/grille.png"
@@ -19,29 +19,29 @@ const Bloc1: React.FC = () => {
             />
 
             {/* ------------------------------------------- Contenu texte ------------------------------------------- */}
-            <div className="relative z-20 text-center max-w-2xl mt-4">
-                <p className="text-xl font-medium text-white font-poppins">Création d'expériences numériques</p>
-                <p className="text-xl font-medium text-white font-poppins">Concepteur & Développeur</p>
-                <p className="mt-2 text-xs font-poppins text-[#b4b3b3] font-extralight px-8">
+            <div className="relative z-20 text-center max-w-2xl lg:max-w-none mt-4">
+                <p className="text-xl md:text-3xl md:mt-6 lg:text-5xl font-medium text-white font-poppins">Création d'expériences numériques</p>
+                <p className="text-xl md:text-3xl lg:text-5xl lg:mt-4 font-medium text-white font-poppins">Concepteur & Développeur</p>
+                <p className="mt-2 text-xs md:text-lg lg:text-2xl lg:mt-10 font-poppins text-[#b4b3b3] font-extralight px-8">
                     Je suis un concepteur et développeur d'applications et développeur web. J'apporte des solutions numériques pour renforcer la présence en ligne de votre marque.
                 </p>
+            </div>
 
-                {/* ------------------------------------------- Images défilantes sous le texte ------------------------------------------- */}
-                <div className="relative w-full overflow-hidden  z-10 mt-10">
-                    <motion.div
-                        className="flex w-[300%]"
-                        animate={{ x: ["0%", "-100%"] }}
-                        transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-                    >
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
-                        {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                        <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
-                    </motion.div>
-                </div>
+            {/* ------------------------------------------- Images défilantes sous le texte ------------------------------------------- */}
+            <div className="relative w-full overflow-hidden  z-10 mt-10">
+                <motion.div
+                    className="flex w-[300%] md:w-[200%] lg:w-[250%]"
+                    animate={{ x: ["0%", "-100%"] }}
+                    transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                >
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                    {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                </motion.div>
             </div>
         </div>
     );

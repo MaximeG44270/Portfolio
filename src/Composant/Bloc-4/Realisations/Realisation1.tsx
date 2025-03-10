@@ -4,7 +4,7 @@ import TechBadge from "../TechBadge/TechBadge";
 const Realisation1: React.FC = () => {
   return (
     <div>
-        <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 1" className="mt-8 px-4" />
+        <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 1" className="mt-8 px-4 md:px-8 lg:px-10 lg:mt-24" />
 
         {/* ------------------------------------------- Utilisation du composant TechBadge ------------------------------------------- */}
         <div className="flex self-start ml-4 mt-4 items-center">
@@ -13,7 +13,7 @@ const Realisation1: React.FC = () => {
               href="https://medlogiq.netlify.app/auth/login" 
               target="_blank" 
               rel="noopener noreferrer"
-              className=" ml-10 text-sm font-medium font-poppins text-white text-center"
+              className=" ml-10 text-sm md:text-lg lg:text-2xl lg:mt-6 md:mt-2 font-medium font-poppins text-white text-center"
             >
               Visite du site
             </a>

@@ -19,11 +19,11 @@ const Menu1: React.FC = () => {
 
   return (
     <div className="flex flex-col">
-      <p className="text-white font-poppins text-lg font-bold mb-2">Navigations</p>
+      <p className="text-white font-poppins text-lg font-bold mb-2 md:mb-4 md:text-3xl lg:text-5xl">Navigations</p>
       {links.map(({ name, id }) => (
         <p
           key={id}
-          className="text-[#b4b3b3] font-poppins text-xs font-light mt-2 cursor-pointer hover:text-white transition-colors"
+          className="text-[#b4b3b3] font-poppins text-xs md:text-lg lg:text-2xl font-light mt-2 cursor-pointer hover:text-white transition-colors"
           onClick={() => scrollToSection(id)}
         >
           {name}

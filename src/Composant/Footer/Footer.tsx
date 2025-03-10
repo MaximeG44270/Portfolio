@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
         />
         <div className="flex flex-col">
             {/* ------------------------------------------- Contenu texte ------------------------------------------- */}
-            <div className="relative z-20 text-center max-w-2xl mt-12">
-                <p className="text-5xl font-bold text-white font-poppins">MG Digital</p>
-                <p className="mt-6 text-xs font-poppins text-[#b4b3b3] font-extralight px-4">
+            <div className="relative z-20 text-center max-w-2xl lg:max-w-none mt-12">
+                <p className="text-5xl md:text-7xl lg:text-9xl font-bold text-white font-poppins">MG Digital</p>
+                <p className="mt-6 text-xs md:text-lg lg:text-2xl lg:px-24 lg:mt-10 font-poppins text-[#b4b3b3] font-extralight px-4">
                     Création, conception et développement. Je vous accompagne afin de promouvoir votre identité.
                 </p>
             </div>
             {/* ------------------------------------------- Contenue Double menu ------------------------------------------- */}
-            <div className="flex justify-around mt-12">
+            <div className="flex justify-around mt-12 md:mt-16">
                 <Menu1 />
                 <Menu2 />
             </div>
@@ -30,9 +30,9 @@ const Footer: React.FC = () => {
         <img
             src="/Image-portfolio/Footer/mg-digital.png"
             alt="Image en haut à gauche"
-            className="w-full mt-4"
+            className="w-full mt-4 md:mt-8"
         />
-        <p className="mt-4 text-xs font-poppins text-[#b4b3b3] font-extralight px-4">
+        <p className="mt-4 mb-4 md:mb-6 lg:mb-8 text-xs md:text-lg lg:text-2xl md:mt-8 font-poppins text-[#b4b3b3] font-extralight px-4">
             © 2025 MaxDigital. Tous droits réservés
         </p>
     </div>

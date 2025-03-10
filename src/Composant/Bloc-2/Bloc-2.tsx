@@ -15,9 +15,9 @@ const Bloc2: React.FC = () => {
             />
             <div className="flex flex-col items-center">
                 {/* ------------------------------------------- Contenu texte ------------------------------------------- */}
-                <div className="relative z-20 text-center max-w-2xl mt-12">
-                    <p className="text-xl font-medium text-white font-poppins">Ce que je fais</p>
-                    <p className="mt-2 text-xs font-poppins text-[#b4b3b3] font-extralight px-8">
+                <div className="relative z-20 text-center max-w-2xl lg:max-w-none lg:px-5 mt-12">
+                    <p className="text-xl md:text-3xl md:mt-6 lg:text-5xl lg:mt-12 font-medium text-white font-poppins">Ce que je fais</p>
+                    <p className="mt-2 text-xs md:text-lg lg:text-2xl lg:mt-10 font-poppins text-[#b4b3b3] font-extralight px-8">
                         J’allie créativité et stratégie pour concevoir des expériences numériques captivantes et performantes.
                     </p>
                 </div>

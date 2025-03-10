@@ -69,7 +69,7 @@ const Carousel1: React.FC<CarouselProps> = ({ speed = 30 }) => {
   }, [containerWidth, itemWidth, items.length, speed, animationPaused]);
 
   return (
-    <div className="w-full overflow-hidden bg-color mt-2
+    <div className="w-full overflow-hidden bg-color mt-2 lg:mt-6
      py-4">
       <div 
         className="flex"
@@ -83,7 +83,7 @@ const Carousel1: React.FC<CarouselProps> = ({ speed = 30 }) => {
             <img
               src={src}
               alt={`Tech logo ${index % (items.length / 3) + 1}`}
-              className="w-52 h-16 mx-1 object-contain"
+              className="w-52 h-16 md:w-64 md:h-20 lg:w-96 lg:h-40 lg:mx-6 mx-1 object-contain"
             />
           </div>
         ))}

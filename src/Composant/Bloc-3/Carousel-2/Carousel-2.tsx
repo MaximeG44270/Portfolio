@@ -7,13 +7,13 @@ interface CarouselProps {
 const Carousel2: React.FC<CarouselProps> = ({ speed = 30 }) => {
   const [items, setItems] = useState<string[]>([
     "/Image-portfolio/bloc-3/Figma.png",
-    "/Image-portfolio/bloc-3/Illustrator.png",
-    "/Image-portfolio/bloc-3/Photoshop.png",
-    "/Image-portfolio/bloc-3/Angular.png",
-    "/Image-portfolio/bloc-3/React.png",
-    "/Image-portfolio/bloc-3/TypeScript.png",
     "/Image-portfolio/bloc-3/Html.png",
-    "/Image-portfolio/bloc-3/Css.png"
+    "/Image-portfolio/bloc-3/Photoshop.png",
+    "/Image-portfolio/bloc-3/Illustrator.png",
+    "/Image-portfolio/bloc-3/Angular.png",
+    "/Image-portfolio/bloc-3/TypeScript.png",
+    "/Image-portfolio/bloc-3/Css.png",
+    "/Image-portfolio/bloc-3/React.png"
   ]);
   
   const containerRef = useRef<HTMLDivElement>(null);
@@ -86,7 +86,7 @@ const Carousel2: React.FC<CarouselProps> = ({ speed = 30 }) => {
             <img
               src={src}
               alt={`Tech logo ${index % (items.length / 3) + 1}`}
-              className="w-52 h-16 mx-2 object-contain"
+              className="w-52 h-16 md:w-64 md:h-20 lg:w-96 lg:h-40 lg:mx-6 mx-2 object-contain"
             />
           </div>
         ))}

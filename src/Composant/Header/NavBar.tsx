@@ -35,14 +35,14 @@ const NavBar: React.FC = () => {
 
       {/* ------------------------------------------- Menu latéral ------------------------------------------- */}
       <div
-        className={`fixed top-0 right-0 w-52 bg-white h-full text-black transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 w-52 md:w-96 bg-white h-full text-black transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0 z-10" : "translate-x-full z-0"
         }`}
       >
         {/* ------------------------------------------- Bouton de fermeture ------------------------------------------- */}
         {isMenuOpen && (
           <div
-            className="absolute top-24 left-40 w-8 h-6 cursor-pointer z-30"
+            className="absolute top-24 left-40 md:left-80 w-8 h-6 cursor-pointer z-30"
             onClick={toggleMenu}
           >
             <div className="absolute w-8 h-1 bg-black transition-transform duration-300 line1"></div>
@@ -61,7 +61,7 @@ const NavBar: React.FC = () => {
           ].map(({ name, id }) => (
             <span
               key={id}
-              className="text-lg font-poppins font-bold cursor-pointer"
+              className="text-lg md:text-2xl font-poppins font-bold cursor-pointer"
               onClick={() => scrollToSection(id)}
             >
               {name}
@@ -73,13 +73,13 @@ const NavBar: React.FC = () => {
       {/* ------------------------------------------- Bouton hamburger ------------------------------------------- */}
       {!isMenuOpen && (
         <div
-          className="relative flex flex-col justify-between items-center w-8 h-6 cursor-pointer md:hidden z-20"
+          className="relative flex flex-col justify-between items-center md:mb-4 w-8 h-6 cursor-pointer xl:hidden z-20"
           onClick={toggleMenu}
         >
-          <div className="flex flex-col space-y-2">
-            <div className="w-8 h-1 bg-white transition-all duration-300"></div>
-            <div className="w-4 h-1 bg-white transition-all duration-300 ml-auto"></div>
-            <div className="w-8 h-1 bg-white transition-all duration-300"></div>
+          <div className="flex flex-col space-y-2 lg:space-y-3">
+            <div className="w-8 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
+            <div className="w-4 h-1 rounded-sm md:h-2 md:w-6 md:rounded-md  lg:h-3 lg:w-10  lg:rounded-md  bg-white transition-all duration-300 ml-auto"></div>
+            <div className="w-8 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
           </div>
         </div>
       )}
