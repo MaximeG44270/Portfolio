@@ -30,7 +30,7 @@ const Bloc1: React.FC = () => {
             {/* ------------------------------------------- Images défilantes sous le texte ------------------------------------------- */}
             <div className="relative w-full overflow-hidden  z-10 mt-10">
                 <motion.div
-                    className="flex w-[300%] md:w-[200%] lg:w-[250%]"
+                    className="flex w-[300%] md:w-[200%] lg:w-[250%] xl:w-[150%]"
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                 >
