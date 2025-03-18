@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             alt="Image en haut à gauche"
             className="w-full mt-4 md:mt-8"
         />
-        <p className="mt-4 mb-4 md:mb-6 lg:mb-8 text-xs md:text-lg lg:text-2xl md:mt-8 font-poppins text-[#b4b3b3] font-extralight px-4">
+        <p className="mt-4 mb-4 md:mb-6 lg:mb-8 text-xs md:text-lg lg:text-lg md:mt-8 font-poppins text-[#b4b3b3] font-extralight px-4">
             © 2025 MaxDigital. Tous droits réservés
         </p>
     </div>
