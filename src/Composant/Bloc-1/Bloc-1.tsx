@@ -22,7 +22,7 @@ const Bloc1: React.FC = () => {
             <div className="relative z-20 text-center max-w-2xl lg:max-w-none mt-4">
                 <p className="text-xl md:text-3xl md:mt-6 lg:text-5xl font-medium text-white font-poppins">Création d'expériences numériques</p>
                 <p className="text-xl md:text-3xl lg:text-5xl lg:mt-4 font-medium text-white font-poppins">Concepteur & Développeur</p>
-                <p className="mt-2 text-xs md:text-lg lg:text-2xl lg:mt-10 font-poppins text-[#b4b3b3] font-extralight px-8">
+                <p className="mt-2 text-xs md:text-lg lg:text-2xl xl:text-lg xl:px-44 2xl:text-2xl lg:mt-10 font-poppins text-[#b4b3b3] font-extralight px-8">
                     Je suis un concepteur et développeur d'applications et développeur web. J'apporte des solutions numériques pour renforcer la présence en ligne de votre marque.
                 </p>
             </div>

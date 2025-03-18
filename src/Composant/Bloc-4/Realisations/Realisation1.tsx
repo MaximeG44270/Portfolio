@@ -13,7 +13,7 @@ const Realisation1: React.FC = () => {
               href="https://medlogiq.netlify.app/auth/login" 
               target="_blank" 
               rel="noopener noreferrer"
-              className=" ml-10 text-sm md:text-lg lg:text-2xl lg:mt-6 md:mt-2 font-medium font-poppins text-white text-center"
+              className=" ml-10 xl:ml-20 text-sm md:text-lg lg:text-2xl lg:mt-6 md:mt-2 font-medium font-poppins text-white text-center"
             >
               Visite du site
             </a>
