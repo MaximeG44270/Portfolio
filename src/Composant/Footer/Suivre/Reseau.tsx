@@ -7,7 +7,7 @@ const Reseaux: React.FC = () => {
         { name: "Facebook", url: "https://www.facebook.com/maxime.gilbert.75" },
         { name: "Github", url: "https://github.com/MaximeG44270" },
         { name: "LinkedIn", url: "https://www.linkedin.com/in/maxime-gilbert-6b21b8215" },
-        { name: "Instagram", url: "https://www.instagram.com/maximeglbt" },
+        { name: "Instagram", url: "https://www.instagram.com/mgdigital.dev" },
       ].map((item, index) => (
         <a
           key={index}
