@@ -29,7 +29,7 @@ const App: React.FC = () => {
           property="og:description" 
           content="Découvrez mon portfolio MG Digital, spécialisé en React, TypeScript et UI moderne."
         />
-        <meta property="og:image" content="/logo-mg-digital-apple.png" />
+        <meta property="og:image" content="/public/logo-mg-digital-apple.png" />
         <meta property="og:url" content="https://mgdigital-test.netlify.app/" />
         <meta name="robots" content="index, follow" />
       </Helmet>

@@ -14,7 +14,7 @@ const Bloc1: React.FC = () => {
             {/* ------------------------------------------- Seconde image en haut à gauche ------------------------------------------- */}
             <img
                 src="/Image-portfolio/bloc-1/lumiere-en-haut-gauche.webp"
-                alt="Image en haut à gauche"
+                alt="Image en haut à gauche-1"
                 className="absolute top-[-30px] left-0 w-60"
             />
 
@@ -28,19 +28,19 @@ const Bloc1: React.FC = () => {
             </div>
 
             {/* ------------------------------------------- Images défilantes sous le texte ------------------------------------------- */}
-            <div className="relative w-full overflow-hidden  z-10 mt-10">
+            <div className="relative w-full overflow-hidden z-10 mt-10">
                 <motion.div
                     className="flex w-[300%] md:w-[200%] lg:w-[250%] xl:w-[150%]"
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                 >
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3 h-auto" />
                     {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3 h-auto" />
                 </motion.div>
             </div>
         </div>
