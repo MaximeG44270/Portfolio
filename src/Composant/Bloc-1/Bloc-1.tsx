@@ -6,7 +6,7 @@ const Bloc1: React.FC = () => {
         <div className="relative w-full bg-color flex flex-col items-center justify-center">
             {/* ------------------------------------------- Image principale en arrière-plan ------------------------------------------- */}
             <img
-                src="/public/Image-portfolio/bloc-1/grille.webp"
+                src="/Image-portfolio/bloc-1/grille.webp"
                 alt="Image de fond"
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
             />
