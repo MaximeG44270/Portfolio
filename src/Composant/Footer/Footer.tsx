@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <div id="contact" className="relative w-full bg-[#0d0a1c] flex flex-col items-center justify-center">
         <img
-            src="/Image-portfolio/Footer/lumiere-droite.png"
+            src="/Image-portfolio/Footer/lumiere-droite.webp"
             alt="Image en haut à gauche"
             className="absolute top-[-5px] w-72 right-0"
         />
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             <MeSuivre />
         </div>
         <img
-            src="/Image-portfolio/Footer/mg-digital.png"
+            src="/Image-portfolio/Footer/mg-digital.webp"
             alt="Image en haut à gauche"
             className="w-full mt-4 md:mt-8"
         />

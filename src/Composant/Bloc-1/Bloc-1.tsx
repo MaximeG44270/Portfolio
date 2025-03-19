@@ -6,16 +6,16 @@ const Bloc1: React.FC = () => {
         <div className="relative w-full bg-color flex flex-col items-center justify-center">
             {/* ------------------------------------------- Image principale en arrière-plan ------------------------------------------- */}
             <img
-                src="/Image-portfolio/bloc-1/grille.png"
+                src="/public/Image-portfolio/bloc-1/grille.webp"
                 alt="Image de fond"
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
             />
 
             {/* ------------------------------------------- Seconde image en haut à gauche ------------------------------------------- */}
             <img
-                src="/Image-portfolio/bloc-1/lumiere-en-haut-gauche.png"
+                src="/Image-portfolio/bloc-1/lumiere-en-haut-gauche.webp"
                 alt="Image en haut à gauche"
-                className="absolute top-[-30px] left-0 w-40"
+                className="absolute top-[-30px] left-0 w-60"
             />
 
             {/* ------------------------------------------- Contenu texte ------------------------------------------- */}
@@ -34,13 +34,13 @@ const Bloc1: React.FC = () => {
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                 >
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3" />
                     {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 1" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 2" className="w-1/3" />
-                    <img src="/Image-portfolio/bloc-1/Untitled-1.png" alt="Image 3" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3" />
+                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3" />
                 </motion.div>
             </div>
         </div>
