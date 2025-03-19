@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             className="w-full mt-4 md:mt-8"
         />
         <p className="mt-4 mb-4 md:mb-6 lg:mb-8 text-xs md:text-lg lg:text-lg md:mt-8 font-poppins text-[#b4b3b3] font-extralight px-4">
-            © 2025 MaxDigital. Tous droits réservés
+            © 2025 MGDigital. Tous droits réservés
         </p>
     </div>
   );
