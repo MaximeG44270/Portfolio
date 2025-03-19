@@ -12,7 +12,7 @@ const App: React.FC = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>MG Digital - Développeur Web</title>
+        <title>MG Digital</title>
         <meta
           name="description"
           content="Bienvenue sur le portfolio de MG Digital, expert en développement web React et TypeScript."
@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <meta name="author" content="MG Digital" />
         
         {/* Open Graph pour Facebook, LinkedIn */}
-        <meta property="og:title" content="MG Digital - Développeur Web" />
+        <meta property="og:title" content="MG Digital" />
         <meta 
           property="og:description" 
           content="Découvrez mon portfolio MG Digital, spécialisé en React, TypeScript et UI moderne."
