@@ -1,5 +1,6 @@
 import React from "react";
 import Realisation1 from "./Realisations/Realisation1";
+import Realisation2 from "./Realisations/Realisation2";
 
 const Bloc4: React.FC = () => {
   return (
@@ -12,8 +13,9 @@ const Bloc4: React.FC = () => {
             Une sélection soigneusement choisie de projets où la créativité rencontre la stratégie.
           </p>
         </div>
-        <div className="xl:w-1/2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Realisation1 />
+          <Realisation2 />
         </div>
       </div>
     </div>

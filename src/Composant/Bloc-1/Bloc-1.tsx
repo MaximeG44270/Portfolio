@@ -30,17 +30,19 @@ const Bloc1: React.FC = () => {
             {/* ------------------------------------------- Images défilantes sous le texte ------------------------------------------- */}
             <div className="relative w-full overflow-hidden z-10 mt-10">
                 <motion.div
-                    className="flex w-[300%] md:w-[200%] lg:w-[250%] xl:w-[150%]"
+                    className="flex w-[300%] md:w-[200%] lg:w-[250%] xl:w-[150%] gap-6"
                     animate={{ x: ["0%", "-100%"] }}
-                    transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                    transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
                 >
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3 h-auto" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3 h-auto" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 1" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-2.png" alt="Image 2" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 3" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-2.png" alt="Image 2" className="w-1/4 h-auto rounded-xl gap-4" />
                     {/* ------------------------------------------- Répétition pour l'effet de boucle infinie ------------------------------------------- */}
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 1" className="w-1/3 h-auto" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 2" className="w-1/3 h-auto" />
-                    <img src="/Image-portfolio/bloc-1/presentation-1.webp" alt="Image 3" className="w-1/3 h-auto" />
+                    <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 1" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-2.png" alt="Image 2" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-1.png" alt="Image 3" className="w-1/4 h-auto rounded-xl gap-4" />
+                    <img src="/Image-portfolio/bloc-4/Projet-2.png" alt="Image 2" className="w-1/4 h-auto rounded-xl gap-4" />
                 </motion.div>
             </div>
         </div>
